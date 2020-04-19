@@ -1,0 +1,20 @@
+{
+  "name": "simple-redirect",
+  "description": "Simple dokku app for redirecting when dokku redirect plugin does not work.",
+  "repository": "https://github.com/hampusn/simple-redirect",
+  "keywords": ["node", "redirect"],
+  "env": {
+    "PORT": {
+      "description": "The port your server should listen to.",
+      "value": "5000"
+    },
+    "STATUS": {
+      "description": "The status code to serve with the redirect.",
+      "value": "301"
+    },
+    "REDIRECT_URL": {
+      "description": "The redirect url.",
+      "value": ""
+    }
+  }
+}

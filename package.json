@@ -1,0 +1,23 @@
+{
+  "name": "simple-redirect",
+  "version": "1.0.0",
+  "description": "Simple dokku app for redirecting when dokku redirect plugin does not work.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hampus Nordin <nordin.hampus@gmail.com> (https://hampusnord.in)",
+  "license": "ISC",
+  "engines": {
+    "node": "12.10.0",
+    "npm": "6.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hampusn/simple-redirect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hampusn/simple-redirect/issues"
+  },
+  "homepage": "https://github.com/hampusn/simple-redirect#readme"
+}
